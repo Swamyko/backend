@@ -182,3 +182,7 @@ SIMPLE_JWT = {
 
 
 CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = [
+    "https://frontend-t3a5.onrender.com",  # Add your frontend URL here
+]
+
